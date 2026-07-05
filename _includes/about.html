@@ -11,7 +11,6 @@
           <p><span class="label">Name</span><span>{{ site.data.site.name }}</span></p>
           <p><span class="label">Profile</span><span>{{ site.data.site.profile }}</span></p>
           <p><span class="label">Email</span><span>{{ site.data.site.email | replace: "@", ".at." }}</span></p>
-          <p><span class="label">Phone</span><span>{{ site.data.site.phone }}</span></p>
         </div>
         <div class="interest-list">
           {% for item in site.data.site.skills_interests %}
