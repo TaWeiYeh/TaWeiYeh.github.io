@@ -19,6 +19,9 @@ socials:
   - name: Twitter
     url: https://twitter.com/Themostabsurd
     icon: twitter
+  - name: Medium
+    url: https://medium.com/@twy359
+    icon: medium
 
 skills_interests:
   - icon: chat
