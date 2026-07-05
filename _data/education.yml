@@ -1,0 +1,26 @@
+- school: Texas A&M University
+  logo: img/TAMU_logo.png
+  degree: "Doctor of Philosophy, Electrical and Computer Engineering"
+  bullets:
+    - "Selected coursework: Probability for Information Science, Pattern Recognition, Linear Multivariable Systems, Reinforcement Learning, Online Decision and Learning"
+    - 'Working with Professor **Xingyong Song** on sensor and robot mutual assistance'
+
+- school: Cornell University
+  logo: img/cornell_seal_simple_b31b1b.svg
+  degree: "Master of Engineering, Electrical and Computer Engineering"
+  bullets:
+    - 'Worked with Professor **Kirstin Petersen** on the Master of Engineering project'
+    - 'Enterprise Award at Makeathon, February 2020 — [See project](https://github.com/jessfeng/jjamt)'
+    - "ECE 5725 Embedded Operating System final project — the balloon-tracking vehicle was ranked one of the best projects and placed in the exhibition"
+    - "Completed 7 projects, including robotics (**SLAM**), parallel computing, and machine learning"
+
+- school: National Taiwan Normal University
+  logo: img/ntnu_logo.png
+  degree: "Bachelor of Technology, Electrical Engineering"
+  bullets:
+    - "**Vice President** of the Electrical Engineering Student Association (Junior year)"
+    - "General Coordinator of the Week of Electrical Engineering (Sophomore year)"
+    - "General Coordinator of the Training Camp of Reintegration Services-Entertainment Program (Junior year)"
+    - "Academic Excellent Award — Oct. 21, 2014"
+    - "Excellent Student Award — Apr. 14, 2016"
+    - "Production and Application of Delta Robot Manipulator — **3rd place** at the first MechaHerosTaiwan, Dec. 23, 2016"

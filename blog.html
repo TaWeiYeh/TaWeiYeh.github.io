@@ -1,31 +1,22 @@
 ---
 layout: default
-title: Home
+title: Blog
 ---
-{% include hero.html %}
-{% include about.html %}
-{% include experience.html %}
-{% include education.html %}
-{% include highlights.html %}
-{% include projects.html %}
-{% include skills.html %}
-
-<section id="blog-teaser">
+<section style="padding-top: 140px;">
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Blog</span>
-      <h2>Latest posts</h2>
+      <h2>Writing</h2>
+      <p>Notes on robotics, engineering, and whatever else I've been building or exploring.</p>
     </div>
     <div class="blog-grid">
-      {% for post in site.posts limit:3 %}
+      {% for post in site.posts %}
       <a class="blog-card card reveal" href="{{ post.url | relative_url }}">
         <span class="blog-date">{{ post.date | date: "%B %-d, %Y" }}</span>
         <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
+        <p>{{ post.excerpt | strip_html | truncatewords: 24 }}</p>
       </a>
       {% endfor %}
     </div>
   </div>
 </section>
-
-{% include contact.html %}

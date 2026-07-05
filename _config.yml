@@ -1,0 +1,28 @@
+title: Ta-Wei Yeh
+description: >-
+  Portfolio of Ta-Wei Yeh — Ph.D. student in Electrical and Computer Engineering,
+  robotics and embedded systems engineer.
+url: "https://TaWeiYeh.github.io"
+author: Ta-Wei Yeh
+
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      permalink: /blog/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+  - .claude

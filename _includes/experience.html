@@ -1,0 +1,25 @@
+<section id="experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Experience</span>
+      <h2>Where I've worked</h2>
+    </div>
+    <div class="timeline">
+      {% for job in site.data.experience %}
+      <div class="timeline-item reveal">
+        <div class="timeline-marker">
+          {% if job.logo %}
+          <img src="{{ job.logo | relative_url }}" alt="{{ job.org }}">
+          {% else %}
+          <span class="fallback">{{ job.org | slice: 0 }}</span>
+          {% endif %}
+        </div>
+        <div class="timeline-body">
+          <h3>{{ job.org }} <span class="timeline-date">{{ job.date }}</span></h3>
+          {{ job.description | markdownify }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

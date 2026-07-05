@@ -1,0 +1,40 @@
+- title: Linux
+  icon: terminal
+  description: >-
+    Four robotics projects required Linux on Ubuntu or Raspbian. Also completed a
+    shell-scripting course on Udemy for project work and personal learning.
+
+- title: Projects
+  icon: code
+  description: >-
+    Cornell brought numerous projects and coursework every semester — up to seven
+    involving robotics. Topics include SLAM (Simultaneous Localization and
+    Mapping), serial/parallel robotic arms, and hands-on two-wheeled robots.
+
+- title: Photography
+  icon: camera
+  description: >-
+    Fascinated by space and galaxies, I enjoy capturing the Milky Way at night, as
+    well as photos from my travels. See the blog for more.
+
+- title: Robotics
+  icon: bug
+  description: >-
+    Making humans' lives more efficient and effortless is part of engineering's
+    responsibility, and robotics is one of the technologies leading there. Cornell
+    ECE 4770 (Foundations of Robotics) and MAE 5180 (Autonomous Mobile Robots)
+    deepened this knowledge, alongside other robotics projects.
+
+- title: Sports
+  icon: basketball
+  description: >-
+    Open to a variety of sports — basketball, golf, skiing, and more. Tried
+    scuba-diving and SUP at Cayuga Lake, and sky-diving is next. Feel free to share
+    your own story.
+
+- title: Teamwork
+  icon: team
+  description: >-
+    Most projects involved three or more people, requiring cooperation,
+    communication, and negotiation with every teammate. Serving as a club vice
+    president in undergrad taught how to lead a team toward a shared goal.

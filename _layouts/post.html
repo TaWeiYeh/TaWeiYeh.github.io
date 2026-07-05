@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article>
+  <header class="post-header container">
+    <span class="blog-date">{{ page.date | date: "%B %-d, %Y" }}</span>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <div class="post-content container">
+    <a class="back-link" href="{{ '/blog.html' | relative_url }}">{% include icon.html name="arrow-left" %} Back to blog</a>
+    {{ content }}
+  </div>
+</article>

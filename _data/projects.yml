@@ -1,0 +1,122 @@
+- title: Artemis Nano Bluetooth App
+  category: ECE3400
+  date: "10 June 2020"
+  image: img/project-artemisbleapp.PNG
+  description: >-
+    Designed an Android application that connects to an Artemis Nano over Bluetooth
+    (UART). The Artemis Nano acts as a server, passively waiting for Android clients
+    to connect. The app sends messages over the UART service, including text,
+    gyroscope readings, and two virtual-joystick readings.
+  role: Software Engineer
+  language: Java / Arduino
+  link: https://github.com/TaWeiYeh/ArtemisBleApp
+
+- title: Makeathon — Smart Cap
+  category: Smart Cap
+  date: "03 Feb. 2020"
+  image: img/project-smart-cap.jpg
+  description: >-
+    Awarded 2nd place among 20 teams. In one day, built a smart cap providing 360°
+    blind-spot danger detection with physical alerts — an LED and buzzer activate
+    when danger is nearby. Contributed as a software and hardware engineer, devising
+    the software architecture and wiring the electrical components.
+  role: Software Engineer
+  language: Python
+  link: https://github.com/jessfeng/jjamt
+
+- title: Human-Robot Swarm
+  category: MEng. Project
+  date: "19 June 2019"
+  image: img/project-human-robot-swarm.png
+  description: >-
+    Guided by Professor Kirstin Petersen. Many researchers envision situations where
+    a group of non-expert humans must collaborate with robots, forming an ad-hoc
+    human-robot swarm to accomplish a global, high-level task. This Master of
+    Engineering project built the first and second generation of rovers for the
+    four-year project.
+  role: Software Architect Designer
+  language: Python
+
+- title: Autonomous Mobile Robot
+  category: MAE 5180
+  date: "7 May 2019"
+  image: img/project-autonomous-mobile-robot.jpg
+  description: >-
+    Implemented Simultaneous Localization and Mapping (SLAM) on a two-wheeled iRobot
+    Roomba. Designed algorithms including bi-directional RRT for path planning,
+    particle-filter localization, and FastSLAM. In the final competition, reached
+    waypoints using only a depth camera for localization.
+  role: Algorithm Engineer
+  language: MATLAB
+
+- title: Parallel Computing
+  category: ECE 4750
+  date: "7 May 2019"
+  image: img/project-parallel-computing.PNG
+  description: >-
+    Implemented parallel computing for the Floyd-Warshall and Dijkstra shortest-path
+    algorithms using parallel tools (Pthreads, CUDA) alongside a serial baseline.
+    Concluded that CUDA achieved up to a 50x speed-up over serial computing.
+  role: Software Engineer
+  language: "C, Pthread, OpenMP, MPI, CUDA"
+
+- title: Physical Intelligent System
+  category: ECE 3400
+  date: "12 Dec. 2018"
+  image: img/project-ece3400.jpg
+  description: >-
+    Designed a multi-task autonomous robot featuring line following, wall detection,
+    audio detection, visual treasure detection, collision avoidance, and maze
+    mapping to explore an unknown maze. Implemented computer vision in Verilog for
+    shape detection (80% success rate) using an OV7670 camera.
+  role: Computer Vision Engineer
+  language: Arduino
+  link: https://ece-3400-group.github.io/
+
+- title: Embedded Operating System
+  category: ECE 5725
+  date: "08 Dec. 2018"
+  image: img/project-ece5725.jpg
+  description: >-
+    Designed an autonomous ball-tracking vehicle equipped with a Raspberry Pi and
+    camera. Used multiprocessing to handle image processing and motor control with
+    an order-of-magnitude improvement, achieving PID control on the motors with ball
+    position fed back from the camera.
+  role: Control / Mechanical Engineer
+  language: Python
+  link: https://courses.ece.cornell.edu/ece5990/ECE5725_Fall2018_Projects/ty359_yw996_Final_Project/index.html
+
+- title: Design of Auto-Guided Vehicle
+  category: Industry-Academia Cooperation
+  date: "02 Feb. 2018"
+  image: img/project-auto-guided-vehicle-copy-right.png
+  description: >-
+    Constructed an auto-guided vehicle to deliver meals and documents to employees
+    at Yulon Motor, Taiwan. Integrated the A* algorithm, fuzzy control, and AMCL for
+    trajectory planning.
+  role: Software Engineer
+  language: C++
+
+- title: Vehicles Detection
+  category: Pattern Recognition Project
+  date: "25 Jan. 2018"
+  image: img/project-vehicle-detection.PNG
+  description: >-
+    Pattern recognition for automated vehicles to detect the nearby presence of
+    specific cars. Applied thresholding, dilation, erosion, segmentation, and
+    tracking algorithms.
+  role: Computer Vision Engineer
+  language: C++
+
+- title: Production and Application of Delta Robot Manipulator
+  category: Undergraduate Final Project
+  date: "25 Dec. 2016"
+  image: img/project-delta-robot-copy-right.png
+  description: >-
+    Built a delta robot that walks by lifting itself upward and moving its
+    stationary base forward. Programmed a GUI in C# and calculated the delta
+    robot's kinematics and torque. Won 3rd place in the first MechaHeroesTaiwan
+    competition on Dec. 23, 2016, competing among 25 teams.
+  role: Software Engineer
+  language: "C#, MATLAB"
+  link: http://isdlab.ie.ntnu.edu.tw/isdwebsite/research_en.html

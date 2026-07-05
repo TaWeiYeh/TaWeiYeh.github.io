@@ -1,0 +1,22 @@
+<section id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Contact</span>
+      <h2>Get in touch</h2>
+      <p>The world becomes better when people are connected — feel free to reach out.</p>
+    </div>
+    <div class="contact-grid contact-grid--single">
+      <div class="contact-card card reveal">
+        <h3>Find me online</h3>
+        <p style="color: var(--text-muted)">Let's connect on social media.</p>
+        <div class="social-row">
+          {% for social in site.data.site.socials %}
+          <a href="{{ social.url }}" target="_blank" rel="noopener" aria-label="{{ social.name }}">
+            {% include icon.html name=social.icon %}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

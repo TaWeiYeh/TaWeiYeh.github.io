@@ -1,0 +1,17 @@
+<section id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Skills</span>
+      <h2>What I bring to the table</h2>
+    </div>
+    <div class="skill-grid">
+      {% for skill in site.data.skills %}
+      <div class="skill-card card reveal">
+        <div class="icon">{% include icon.html name=skill.icon %}</div>
+        <h3>{{ skill.title }}</h3>
+        <p>{{ skill.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

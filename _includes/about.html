@@ -1,0 +1,36 @@
+<section id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">About</span>
+      <h2>A bit about me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <img src="{{ site.data.site.photo | relative_url }}" alt="{{ site.data.site.name }}">
+        <div class="about-facts">
+          <p><span class="label">Name</span><span>{{ site.data.site.name }}</span></p>
+          <p><span class="label">Profile</span><span>{{ site.data.site.profile }}</span></p>
+          <p><span class="label">Email</span><span>{{ site.data.site.email | replace: "@", ".at." }}</span></p>
+          <p><span class="label">Phone</span><span>{{ site.data.site.phone }}</span></p>
+        </div>
+        <div class="interest-list">
+          {% for item in site.data.site.skills_interests %}
+          <div class="interest-item">
+            <span class="icon">{% include icon.html name=item.icon %}</span>
+            <div>
+              <span class="label">{{ item.label }}</span>
+              <span class="value">{{ item.value }}</span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="about-bio reveal">
+        <h3>About me</h3>
+        {% for paragraph in site.data.site.about_paragraphs %}
+        {{ paragraph | markdownify }}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

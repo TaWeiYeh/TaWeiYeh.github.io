@@ -1,0 +1,28 @@
+- org: Academia Sinica
+  logo: img/iis-sinica-logo.png
+  date: "July 2020 – June 2021"
+  description: >-
+    Research on AI acceleration for neural networks and real-time operating systems,
+    advised by Professor Jan-Jan Wu. Aimed to accelerate particle-filter visual
+    localization using TensorFlow (software) and Google Edge-TPU (hardware).
+    Updated a CNN for higher image-resolution input, more efficient localization
+    convergence, and better localization accuracy.
+
+- org: Corning Incorporated
+  logo: null
+  date: "July – Aug. 2019"
+  description: >-
+    2019 summer intern at **Corning Incorporated**. Responsible for modern process
+    control integrating two motion controllers — synchronized an XYZ machine and a
+    six-degree-of-freedom robotic arm and communicated in less time than the legacy
+    system. Finished assignments on time and even caught up on a previously delayed
+    schedule; works well under pressure and with teams.
+
+- org: Cornell University
+  logo: img/cornell_seal_simple_b31b1b.svg
+  date: "June 2019"
+  description: >-
+    Researcher on the **Human-Robot Swarm** project, advised by **Kirstin Petersen**.
+    Added three software features to the rover. Documented rover components and
+    software instructions for future rovers, speeding up the project process ahead
+    of the upcoming paper submission.

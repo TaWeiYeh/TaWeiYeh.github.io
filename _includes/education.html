@@ -1,0 +1,30 @@
+<section id="education">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Education</span>
+      <h2>Where I've studied</h2>
+    </div>
+    <div class="timeline">
+      {% for school in site.data.education %}
+      <div class="timeline-item reveal">
+        <div class="timeline-marker">
+          {% if school.logo %}
+          <img src="{{ school.logo | relative_url }}" alt="{{ school.school }}">
+          {% else %}
+          <span class="fallback">{{ school.school | slice: 0 }}</span>
+          {% endif %}
+        </div>
+        <div class="timeline-body">
+          <h3>{{ school.school }}</h3>
+          <p>{{ school.degree }}</p>
+          <ul>
+            {% for bullet in school.bullets %}
+            <li>{{ bullet | markdownify | remove: "<p>" | remove: "</p>" }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

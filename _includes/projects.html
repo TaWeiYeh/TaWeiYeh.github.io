@@ -1,0 +1,30 @@
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Projects</span>
+      <h2>Selected work</h2>
+      <p>Various projects spanning robotics, controls, and hands-on hardware design.</p>
+    </div>
+    <div class="project-grid">
+      {% for project in site.data.projects %}
+      <div class="project-card card reveal">
+        <a class="project-image" href="{{ project.image | relative_url }}" data-lightbox data-caption="{{ project.title }}">
+          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" loading="lazy">
+        </a>
+        <div class="project-body">
+          <div class="project-meta">{{ project.category }} · {{ project.date }}</div>
+          <h3>{{ project.title }}</h3>
+          <p class="desc">{{ project.description }}</p>
+          <div class="project-tags">
+            <span><strong>Role:</strong> {{ project.role }}</span>
+            <span><strong>Stack:</strong> {{ project.language }}</span>
+          </div>
+          {% if project.link %}
+          <a class="project-link" href="{{ project.link }}" target="_blank" rel="noopener">See project &rarr;</a>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

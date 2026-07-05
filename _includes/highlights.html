@@ -1,0 +1,10 @@
+<div class="highlights">
+  <div class="container">
+    {% for item in site.data.site.highlights %}
+    <div class="reveal">
+      <div class="highlight-number" data-count="{{ item.number }}">0</div>
+      <div class="highlight-label">{{ item.label }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
