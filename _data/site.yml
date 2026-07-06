@@ -44,6 +44,11 @@ about_paragraphs:
   - "I have eight projects implemented in **Linux** with various software programming languages like **C++**, C#, MATLAB, Python, and **ROS**. My work includes **software architecture design** and spans hardware to software, hands-on builds to algorithm design, including SLAM and PID. One project used computer vision for balloon tracking; another coordinated numerous sensors and mapping abilities so a robot could explore an unknown maze."
   - "All my projects were solved and achieved through teamwork. I am an excellent team player — I was the vice president of my Electrical Engineering Student Association and a leader on my undergraduate final project."
 
+currently: 
+  - "Trying to integrate traditional control theory, Model Predivtive Control (MPC), with Reinforcement Learning (RL) to improve the performance of robotic systems, especially in the field of autonomous navigation. This includes developing navigation algorithms, building simulations, evaluating performance in both simulated and real-world environments."
+  - "The goal is to create a mobile robot that could navigate autonomously in complex environments, such as various friction surfaces, slopes, and obstacles while achieving high success rate and energy efficiency. "
+  - "Our research focused on levaraging the power of reinforcement learning to adapt to different environments while ensuring safe exploration and navigation through traditional control methods. "
+
 highlights:
   - number: 10
     label: Projects

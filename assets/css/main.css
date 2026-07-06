@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto 56px;
 }
 
-.section-head .eyebrow {
+.eyebrow {
   color: var(--accent);
   font-family: var(--font-heading);
   text-transform: uppercase;
@@ -402,6 +402,25 @@ h1, h2, h3, h4, h5 {
 .about-bio strong,
 .about-bio b {
   color: var(--text);
+}
+
+.now-panel {
+  margin-top: 28px;
+  padding: 20px 24px;
+}
+
+.now-panel .eyebrow {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.now-panel p {
+  margin: 0 0 0.8em;
+  color: var(--text-muted);
+}
+
+.now-panel p:last-child {
+  margin-bottom: 0;
 }
 
 /* ---------- Timeline (experience / education) ---------- */

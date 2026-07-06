@@ -29,6 +29,13 @@
         {% for paragraph in site.data.site.about_paragraphs %}
         {{ paragraph | markdownify }}
         {% endfor %}
+
+        <div class="now-panel card">
+          <span class="eyebrow">Currently</span>
+          {% for paragraph in site.data.site.currently %}
+          {{ paragraph | markdownify }}
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
