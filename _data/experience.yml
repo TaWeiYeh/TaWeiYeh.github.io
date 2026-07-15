@@ -1,3 +1,24 @@
+- org: Texas A&M University, ETID
+  logo: img/TAMU_logo.png
+  date: "Jan. 2020 – Now"
+  description: >-
+    Served as a research assistant under the supervision of Professor **Dr. Xingyong Song**. 
+    Aiming to combine the advantages of **deep learning** and **model-based control** to 
+    improve the performance of autonomous mobile robots in terms of **energy efficiency** 
+    and **obstacle avoidance** in the navigation task. 
+
+- org: Texas A&M University, MXET
+  logo: img/TAMU_logo.png
+  date: "Jan. 2020 – Dec. 2024"
+  description: >-
+    Served as a teaching assistant for MXET300 (Mechatronics I), covering mechanical,
+    electronic, software, control, and communication aspects of embedded
+    intelligent electromechanical systems, with an emphasis on mobile robotic
+    platforms. Assisted in grading, lab setup, and student support. Also, give 
+    guidance to students on their final projects, including problem solving and 
+    project design. Assisting over 270 students in total, and received positive 
+    feedback from students for my support and guidance.
+
 - org: Academia Sinica
   logo: img/iis-sinica-logo.png
   date: "July 2020 – June 2021"
